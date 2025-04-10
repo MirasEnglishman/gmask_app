@@ -1,0 +1,87 @@
+name: gmask_app
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+
+  # [ARCHITECTURE]
+  intl: ^0.20.2
+  bloc: ^9.0.0
+  equatable: ^2.0.5
+  get_it: ^7.6.4
+  injectable: ^2.1.0
+
+  # [CACHE/LOCAL DATA]
+  shared_preferences: ^2.2.2
+  drift: ^2.13.0
+  path_provider: ^2.0.0
+  path: ^1.8.3
+
+  # [NETWORK]
+  dio: ^5.3.3
+  retrofit: ^4.0.3
+
+  # [UI/UX]
+  flutter_svg: ^1.1.6
+
+  # [NAVIGATION]
+  seafarer: ^0.1.1
+
+  # [OTHERS]
+  json_annotation: ^4.8.1
+  cached_network_image: ^3.3.1
+  logger: ^2.0.2+1
+  provider: ^6.1.2
+  url_launcher: ^6.3.0
+  flutter_bloc: ^9.1.0
+  flutter_screenutil: ^5.9.3
+  injectable_generator: ^2.6.2
+  elementary: ^3.2.0
+  talker_dio_logger: ^4.7.1
+  dgis_map_kit: ^0.0.6
+  carousel_slider: ^5.0.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+  build_runner: ^2.4.6
+  retrofit_generator: ^8.0.1
+  json_serializable: ^6.7.1
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/fonts/
+    - assets/icons/
+
+
+  fonts:
+   - family: Inter
+     fonts:
+       - asset: assets/fonts/Inter_18pt-Regular.ttf
+         weight: 400
+       - asset: assets/fonts/Inter_18pt-Medium.ttf
+         weight: 600
+       - asset: assets/fonts/Inter_18pt-Bold.ttf
+         weight: 800
