@@ -157,7 +157,7 @@ class _CategoryScreenState extends State<CategoryScreen> {
                     ),
                     _CategoryCard(
                       imageUrl:
-                          'https://www.gmask.kz/wp-content/uploads/2020/05/auto-banner.png',
+                          'https://okleyka.pro/upload/iblock/122/mercedes-grey-vinyl-wrapping-okleyka-pro-5.jpg',
                       title: 'Защитный комплект «Старт»',
                       description:
                           'Начальный комплект защиты для автомобиля, Вы на деле убедитесь что защита работает и обязательно закажете апгрэйд до комплекта "Стандарт" или "Люкс", а возможно и полную оклейку, так как при полной оклейке автомобиля мы установим защиту лобового стекла ClearPlex бесплатно! Мы официально устанавливаем антигравийные пленки Hexis Bodyfence X и Xpel Ultimate Plus. Антигравийная пленка Hexis Bodyfence X устанавливается с документальной Пожизненной гарантией* от производителя.',
@@ -165,7 +165,7 @@ class _CategoryScreenState extends State<CategoryScreen> {
                     const SizedBox(height: 16),
                     _CategoryCard(
                       imageUrl:
-                          'https://www.gmask.kz/wp-content/uploads/2020/05/auto-banner.png',
+                          'https://eastline-garage.ru/images/portfolio/avtovinil/MERSEDES_222/lorein-0936.jpg',
                       title: 'Защитный комплект «Старт»',
                       description:
                           'Начальный комплект защиты для автомобиля, Вы на деле убедитесь что защита работает и обязательно закажете апгрэйд до комплекта "Стандарт" или "Люкс", а возможно и полную оклейку, так как при полной оклейке автомобиля мы установим защиту лобового стекла ClearPlex бесплатно! Мы официально устанавливаем антигравийные пленки Hexis Bodyfence X и Xpel Ultimate Plus. Антигравийная пленка Hexis Bodyfence X устанавливается с документальной Пожизненной гарантией* от производителя.',

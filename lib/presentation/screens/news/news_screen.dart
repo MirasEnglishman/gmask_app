@@ -28,9 +28,9 @@ class _NewsScreenState extends State<NewsScreen> {
               _NewsCard(
                 imageUrl:
                     'https://s3-alpha-sig.figma.com/img/e40d/41a7/023cf28e91de4779cc65778291000108?Expires=1745193600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=lu4hVSDKUJoj02A~wN1VRGQfjQ72N6mEx8QwckkaJYUP25BZ-VA7041~xlDSIF8P5Q-XkzWLTtHy8OdEHYEM4BANBnXeoTeL3nh30cIA329Xa1UsPsTSYawAZzEu2F9WW1Rvm56D68aX1ey8nhjyO06H12mCZjEkrZh4TUOq8v2RkWCK2uxcqXyFWK-hg~He-Rdgvq~j5Ujt297wWXqjR~Vj9EIjZegVjnGvHM3GkYJB3V44KdEyyn3WBrR0iqeg3eGfO2uqjRVMKL~q~jxlM-Ekh3XEj1oTXwGdvJMwca8fIcRr4zQJcVaDNOFilXA3lMolpVhOarW86dgxcOa-Tg__', // Замените ссылку на реальную
-                title: 'Заголовок блока новостей',
+                title: 'Новый сервис в нашем приложении — Автодетейлинг под заказ!',
                 description:
-                    'При создании генератора мы использовали небезызвестный универсальный код речи. Текст генерируется абзацами случайным образом...',
+                    'Мы рады представить вам новый сервис автодетейлинга, который позволит вашему автомобилю выглядеть как новый!',
                 time: '6 минут назад',
                 likes: 312,
               ),
@@ -38,10 +38,10 @@ class _NewsScreenState extends State<NewsScreen> {
               // Второй блок новостей (без фотографии — с заглушкой)
               _NewsCard(
                 imageUrl:
-                    "https://s3-alpha-sig.figma.com/img/e40d/41a7/023cf28e91de4779cc65778291000108?Expires=1745193600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=lu4hVSDKUJoj02A~wN1VRGQfjQ72N6mEx8QwckkaJYUP25BZ-VA7041~xlDSIF8P5Q-XkzWLTtHy8OdEHYEM4BANBnXeoTeL3nh30cIA329Xa1UsPsTSYawAZzEu2F9WW1Rvm56D68aX1ey8nhjyO06H12mCZjEkrZh4TUOq8v2RkWCK2uxcqXyFWK-hg~He-Rdgvq~j5Ujt297wWXqjR~Vj9EIjZegVjnGvHM3GkYJB3V44KdEyyn3WBrR0iqeg3eGfO2uqjRVMKL~q~jxlM-Ekh3XEj1oTXwGdvJMwca8fIcRr4zQJcVaDNOFilXA3lMolpVhOarW86dgxcOa-Tg__", // Передаём null, чтобы показать заглушку
-                title: 'Заголовок блока новостей',
+                    "https://s3-alpha-sig.figma.com/img/61f9/3f9f/2099c2c02721d733d26dc75a2c7c44f1?Expires=1745193600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=hGdgYC5BN6DMzCfePSLIBxnhaWTi9k4e28Vh-MZIk8IdXo3V15OHLEklt2KttIE6gDJQg07IkJNLP9iBiONEvjMWPdTy4WWOzlkpmTT1y~XW5ytq7cI5FRIt5QoLn15R8wQ9cMXQlV-VbfbC6B77E3lk2lh4VvcNMz~q8hrAw5eZS9N8MY8IGiv~HBo04OKDfGEtt1VDghavWm~OJPcP64684pix15RZZS7kmWteiQw-if3VqPwDtJbeuAGnQTh3OqujOFncDfzNQGnvL-29SCEq4sOcZhwCZcxOvzdMJCpt8GT1~3BppYaDQijkB~k65rswPZt2fTivDAlSisy3Yw__", // Передаём null, чтобы показать заглушку
+                title: 'Освежите свой автомобиль с помощью профессионального детейлинга!',
                 description:
-                    'При создании генератора мы использовали небезызвестный универсальный код речи. Текст генерируется абзацами случайным образом...',
+                    'Ваш автомобиль заслуживает лучшего ухода. Используйте наш сервис автодетейлинга и подарите своему авто заботу, которую оно заслуживает.',
                 time: '3 минуты назад',
                 likes: 64,
               ),

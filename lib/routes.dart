@@ -8,6 +8,7 @@ import 'package:gmask_app/presentation/screens/main/work_detail_screen.dart';
 import 'package:gmask_app/presentation/screens/market/product_detail_screen.dart';
 import 'package:gmask_app/presentation/screens/news/news_detail_screen.dart';
 import 'package:gmask_app/presentation/screens/onboarding/onboarding_screen.dart';
+import 'package:gmask_app/presentation/screens/splash_screen.dart';
 import 'package:gmask_app/presentation/screens/story/story_slider.dart';
 import 'package:seafarer/seafarer.dart';
 
@@ -71,6 +72,11 @@ class Routes {
         name: registrationScreen,
         builder: (context, args, params) => RegistrationScreen(),
       ),
+
+      SeafarerRoute(
+        name: splashScreen,
+        builder: (context, args, params) => SplashScreen(),
+      ),
     ]);
   }
   static const String homePage = '/home_page';
@@ -83,6 +89,8 @@ class Routes {
   static const String onboardingScreen = '/onboarding_screen';
   static const String loginScreen = '/login_screen';
   static const String registrationScreen = '/registration_screen';
+  static const String splashScreen = '/splash_screen';
+
 
 
 }

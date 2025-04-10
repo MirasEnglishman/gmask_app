@@ -3,6 +3,8 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:gmask_app/core/app_assets.dart';
 import 'package:gmask_app/core/app_colors.dart';
 import 'package:gmask_app/presentation/widgets/custom_app_bar.dart';
+import 'package:gmask_app/routes.dart';
+import 'package:seafarer/seafarer.dart';
 
 class ProfileScreen extends StatefulWidget {
   const ProfileScreen({super.key});
@@ -249,7 +251,10 @@ void _showExitFromAccount(BuildContext context) {
               ElevatedButton(
                 onPressed: () {
                   // Handle logout action
-                  Navigator.of(context).pop();
+                           Routes.router.navigate(
+                    Routes.splashScreen,
+                    navigationType: NavigationType.pushReplace,
+                  );
                 },
                 style: ElevatedButton.styleFrom(
                   backgroundColor: const Color(0xFFE74E4E),

@@ -5,7 +5,8 @@ import 'package:gmask_app/routes.dart';
 import 'package:seafarer/seafarer.dart';
 
 class NewsCardWidget extends StatefulWidget {
-  const NewsCardWidget({super.key});
+  final String? url;
+  const NewsCardWidget({this.url, super.key});
 
   @override
   State<NewsCardWidget> createState() => _NewsCardWidgetState();
@@ -37,6 +38,7 @@ class _NewsCardWidgetState extends State<NewsCardWidget> {
                 child: CachedNetworkImage(
                   fit: BoxFit.cover,
                   imageUrl:
+                  widget.url ??
                       'https://s3-alpha-sig.figma.com/img/3f61/e268/2bb61cd564bd31a698d9b862bf13383e?Expires=1745193600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=XZ-xAntKupLxoaC-F1o0f6Rto5WYOfp~zX4V8urS2bOBlyy02tWAxsvFUOrO9VzMQfEdRGdcmkvHP-e3ygz-jG~ypTiKu3yDFqj59DYz0gOxXcbwwUuKLSoLfUVTdE6CwWd3Um4moKoMAm3Q5Q-qhTMAxkpKzcnd8tB-l51JtZjBPDmx-rVxf2oEY4y5y~am-f0ALPM7sp2kOIzIIlx1PJxKL3X9HoPLFpIG2kMOsow9lqIC9JWV~NEDf3Z9IrBs44YTBgvN5JSYLueI0hqp0pbsrWrA8m3pWDbc0gDvtq4uk0IWLAfCYsDnzOkQTleIkc64NwEl6PtZ7Is16aOOIw__',
                 ),
               ),

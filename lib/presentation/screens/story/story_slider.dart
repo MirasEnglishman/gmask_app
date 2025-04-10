@@ -38,7 +38,7 @@ class _StandaloneStoriesSliderState extends State<StandaloneStoriesSlider> {
       'buttonText': 'Перейти по ссылке',
       'backgroundColor': const Color(0xFF212121),
       'assetImage':
-          'https://s3-alpha-sig.figma.com/img/c620/30bf/33c6c6114ee51510356164cfe97be5e2?Expires=1745193600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=JE9ptdgnKQTX2cl8dEeZQCRxPewe6S2UapjLWPSM2hlL2mIVC9EELTHxlImMIjxL1BiFdpU9m6-ymEZPa3TNtFwOLVofq0NsNHjd~v6tPOsHxy0QicMarZC-77Iqe9-mLBn-DhICD8eysWsvpzPEvtQGD02mBuGEypK9g~Eotvg8cTx3~vj3wMK~XFNIaiJwz8xDWriO6ZPbodzH1y7sLjIfjJTkQuvz8RUrC4dm5iyf5x430TgciDu~1VEHcJcWoyW9j4e3RBgNqRLqU~YupJiuKfJkmybp5nLdBaaB5c5v4OTEvNmuH6o8jHBw8eYDEzMoGKxHeJac6Pvbroctag__',
+          'https://s3-alpha-sig.figma.com/img/3f61/e268/2bb61cd564bd31a698d9b862bf13383e?Expires=1745193600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=XZ-xAntKupLxoaC-F1o0f6Rto5WYOfp~zX4V8urS2bOBlyy02tWAxsvFUOrO9VzMQfEdRGdcmkvHP-e3ygz-jG~ypTiKu3yDFqj59DYz0gOxXcbwwUuKLSoLfUVTdE6CwWd3Um4moKoMAm3Q5Q-qhTMAxkpKzcnd8tB-l51JtZjBPDmx-rVxf2oEY4y5y~am-f0ALPM7sp2kOIzIIlx1PJxKL3X9HoPLFpIG2kMOsow9lqIC9JWV~NEDf3Z9IrBs44YTBgvN5JSYLueI0hqp0pbsrWrA8m3pWDbc0gDvtq4uk0IWLAfCYsDnzOkQTleIkc64NwEl6PtZ7Is16aOOIw__',
       'onTap': () {
         // Handle story tap for second item
         print('Story 2 tapped');
@@ -51,7 +51,7 @@ class _StandaloneStoriesSliderState extends State<StandaloneStoriesSlider> {
       'buttonText': 'Перейти по ссылке',
       'backgroundColor': const Color(0xFF212121),
       'assetImage':
-          'https://s3-alpha-sig.figma.com/img/c620/30bf/33c6c6114ee51510356164cfe97be5e2?Expires=1745193600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=JE9ptdgnKQTX2cl8dEeZQCRxPewe6S2UapjLWPSM2hlL2mIVC9EELTHxlImMIjxL1BiFdpU9m6-ymEZPa3TNtFwOLVofq0NsNHjd~v6tPOsHxy0QicMarZC-77Iqe9-mLBn-DhICD8eysWsvpzPEvtQGD02mBuGEypK9g~Eotvg8cTx3~vj3wMK~XFNIaiJwz8xDWriO6ZPbodzH1y7sLjIfjJTkQuvz8RUrC4dm5iyf5x430TgciDu~1VEHcJcWoyW9j4e3RBgNqRLqU~YupJiuKfJkmybp5nLdBaaB5c5v4OTEvNmuH6o8jHBw8eYDEzMoGKxHeJac6Pvbroctag__',
+          'https://s3-alpha-sig.figma.com/img/5b15/7e23/f9228fe20e451530b29c4fe3cb74e892?Expires=1745193600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=qyuFz4Fq5ZtwnfwTTRaGDZwqGdLI68sMc~vKR3q8jji7LVEiEUBMrDc3PrblG014QeU6isXikW5CBoDB2WrFybJPv3ER43c36Fy2bluDtLikGeB~hoDFxzR4Z1nWUV5HyMqBqCBKH789MmGAY4p8l20S~rZF48asnbZrCrfmCAso7RSYios9UBuXDBlgvXKWIeXGuTWiNGD2YWf0aN13Q4Sky~EdKxTCpbAez2Pb3Cb1nRa7Nf~EM-sYYlIhfYKCvwYXZZItWyG0G88nEnZWvUKkGkZuWNO~kc60qklNUMgMfAtQFEr2h5D3B6y-8tt82JIyjgd7A0LOyiF~zxtEXg__',
       'onTap': () {
         // Handle story tap for third item
         print('Story 3 tapped');
