@@ -9,9 +9,9 @@ class WorkDetailScreen extends StatelessWidget {
   WorkDetailScreen({super.key});
 
   final List<String> imageUrls = [
-    "https://s3-alpha-sig.figma.com/img/8d45/9298/3833525d5ab247fffe948cbd170261f5?Expires=1745193600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=iWqqN7sI82L8TknlpQs2BVXVaCueQMxfwDcJ5xWyx8jiAfoxHgbrHO2~sCmpnMAZWIQK8xtGIcy6zODdJqNhlRWUhVpsCm~hsYUdWreBxaCr12yAPwaRJpaqkL7muF2AwJ~kogiIJBOwKgozCiJQr-Uk~d5~vHN2r~qk11X9Hb1Cf756QZ~lHZQJHZ6XsWBmoDQVMWn8OlB-xJgShXDETtjCvGbisOXXEeyfQaQwiCO3fk-7Aiak9IMVAJLB7ubAqdap1rubYpi0iegtPxIwuPCrdtWwNMiTQn-tOfb2bawrnFbpaVnWFLDqwfzsMy6iFyXoAEm~xaj-dupUkgda0g__",
+    'assets/images/work1.jpg',
     // Add more image URLs as needed
-    "https://s3-alpha-sig.figma.com/img/8d45/9298/3833525d5ab247fffe948cbd170261f5?Expires=1745193600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=iWqqN7sI82L8TknlpQs2BVXVaCueQMxfwDcJ5xWyx8jiAfoxHgbrHO2~sCmpnMAZWIQK8xtGIcy6zODdJqNhlRWUhVpsCm~hsYUdWreBxaCr12yAPwaRJpaqkL7muF2AwJ~kogiIJBOwKgozCiJQr-Uk~d5~vHN2r~qk11X9Hb1Cf756QZ~lHZQJHZ6XsWBmoDQVMWn8OlB-xJgShXDETtjCvGbisOXXEeyfQaQwiCO3fk-7Aiak9IMVAJLB7ubAqdap1rubYpi0iegtPxIwuPCrdtWwNMiTQn-tOfb2bawrnFbpaVnWFLDqwfzsMy6iFyXoAEm~xaj-dupUkgda0g__",
+    'assets/images/work2.jpg'
   ];
   // Controller for phone number input
   final TextEditingController _nameController = TextEditingController();
@@ -110,7 +110,7 @@ class WorkDetailScreen extends StatelessWidget {
                           padding: const EdgeInsets.only(right: 8.0),
                           child: ClipRRect(
                             borderRadius: BorderRadius.circular(12),
-                            child: Image.network(
+                            child: Image.asset(
                               imageUrls[index],
                               width: 360,
                               height: 240,

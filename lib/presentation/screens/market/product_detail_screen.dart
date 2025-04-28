@@ -8,14 +8,12 @@ class ProductDetailScreen extends StatelessWidget {
   ProductDetailScreen({super.key});
 
   final List<String> imageUrls = [
-    "https://s3-alpha-sig.figma.com/img/9894/1a21/4acdf859f28f6a499d5ff714f4d009bc?Expires=1745193600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=jo2P4cT3VDPahcQRJv~1eNnjFpk-NffNjNCSU5EuMFjthFKfiMdgxa1hIpTga21Ej3FshPg-Std-yITAn1teeRBNsO9YMuQ~L562JAfModstCYq6wCF8plpJA~VjyxqbQCF-efB3VctDVLCOoEa7~4MEPewCmzTErTlI1kSd9nJaDevYYaw3rykql0Q2kUc2TZhQhgI7~BnuKQdcBfEfN3glD4S2pJ~lqJ2DfumCyDLJQF7t7K0tw1gPE8L~qva0B2u0CuyGQZuuoQptfq9RT6NTa8GdNyGUznCe559tLN0aPsRbqHmBh2dgYAYt~~vaegyUsnYR5ScZAfpUIvPG-g__",
-    // Add more image URLs as needed
-    "https://s3-alpha-sig.figma.com/img/9894/1a21/4acdf859f28f6a499d5ff714f4d009bc?Expires=1745193600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=jo2P4cT3VDPahcQRJv~1eNnjFpk-NffNjNCSU5EuMFjthFKfiMdgxa1hIpTga21Ej3FshPg-Std-yITAn1teeRBNsO9YMuQ~L562JAfModstCYq6wCF8plpJA~VjyxqbQCF-efB3VctDVLCOoEa7~4MEPewCmzTErTlI1kSd9nJaDevYYaw3rykql0Q2kUc2TZhQhgI7~BnuKQdcBfEfN3glD4S2pJ~lqJ2DfumCyDLJQF7t7K0tw1gPE8L~qva0B2u0CuyGQZuuoQptfq9RT6NTa8GdNyGUznCe559tLN0aPsRbqHmBh2dgYAYt~~vaegyUsnYR5ScZAfpUIvPG-g__",
-  ];
+'assets/images/product1.jpg',    // Add more image URLs as needed
+'assets/images/product2.jpg',  ];
   final List<Product> products = [
     Product(
       imageUrl:
-          'https://s3-alpha-sig.figma.com/img/a123/bc45/xyz.jpg?Expires=...',
+          'assets/images/product1.jpg',
       title: 'Диски модели XPL 4211',
       description:
           'Была произведена полировка кузова Mercedes Benz (текст для за)',
@@ -23,7 +21,7 @@ class ProductDetailScreen extends StatelessWidget {
       isFavorited: false,
     ),
     Product(
-      imageUrl: null,
+      imageUrl: 'assets/images/product2.jpg',
       title: 'Название товара',
       description: 'Описание товара',
       price: 'Стоимость товара',
@@ -31,7 +29,7 @@ class ProductDetailScreen extends StatelessWidget {
       isAvailable: true,
     ),
     Product(
-      imageUrl: null,
+      imageUrl: 'assets/images/product3.jpg',
       title: 'Название товара',
       description: 'Описание товара',
       price: 'Стоимость товара',
@@ -39,7 +37,7 @@ class ProductDetailScreen extends StatelessWidget {
       isAvailable: true,
     ),
     Product(
-      imageUrl: null,
+      imageUrl: 'assets/images/product4.jpg',
       title: 'Название товара',
       description: 'Описание товара',
       price: '',
@@ -123,7 +121,7 @@ class ProductDetailScreen extends StatelessWidget {
                           padding: const EdgeInsets.only(right: 8.0),
                           child: ClipRRect(
                             borderRadius: BorderRadius.circular(12),
-                            child: Image.network(
+                            child: Image.asset(
                               imageUrls[index],
                               width: 360,
                               height: 240,

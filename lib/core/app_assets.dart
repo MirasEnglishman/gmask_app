@@ -26,4 +26,8 @@ class AppAssets {
   static const String icInstagram = "${_icons}instagram_alt_icon.svg";
     static const String icTiktok = "${_icons}tiktok_icon.svg";
 
+
+
+    static const String news1 = "${_images}news1.jpg";
+
 }

@@ -25,9 +25,9 @@ dependencies:
   injectable: ^2.1.0
 
   # [CACHE/LOCAL DATA]
-  shared_preferences: ^2.2.2
+  shared_preferences: ^2.5.3
   drift: ^2.13.0
-  path_provider: ^2.0.0
+  path_provider: ^2.1.5
   path: ^1.8.3
 
   # [NETWORK]
@@ -42,7 +42,7 @@ dependencies:
 
   # [OTHERS]
   json_annotation: ^4.8.1
-  cached_network_image: ^3.3.1
+  cached_network_image: ^3.4.1
   logger: ^2.0.2+1
   provider: ^6.1.2
   url_launcher: ^6.3.0
@@ -50,8 +50,6 @@ dependencies:
   flutter_screenutil: ^5.9.3
   injectable_generator: ^2.6.2
   elementary: ^3.2.0
-  talker_dio_logger: ^4.7.1
-  dgis_map_kit: ^0.0.6
   carousel_slider: ^5.0.0
 
 
@@ -61,9 +59,6 @@ dev_dependencies:
 
   flutter_lints: ^5.0.0
 
-  build_runner: ^2.4.6
-  retrofit_generator: ^8.0.1
-  json_serializable: ^6.7.1
 
 
 flutter:

@@ -54,8 +54,8 @@ class NewsDetailScreen extends StatelessWidget {
                       padding: const EdgeInsets.all(8.0),
                       child: ClipRRect(
                         borderRadius: BorderRadius.circular(12),
-                        child: Image.network(
-                          'https://s3-alpha-sig.figma.com/img/e40d/41a7/023cf28e91de4779cc65778291000108?Expires=1745193600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=lu4hVSDKUJoj02A~wN1VRGQfjQ72N6mEx8QwckkaJYUP25BZ-VA7041~xlDSIF8P5Q-XkzWLTtHy8OdEHYEM4BANBnXeoTeL3nh30cIA329Xa1UsPsTSYawAZzEu2F9WW1Rvm56D68aX1ey8nhjyO06H12mCZjEkrZh4TUOq8v2RkWCK2uxcqXyFWK-hg~He-Rdgvq~j5Ujt297wWXqjR~Vj9EIjZegVjnGvHM3GkYJB3V44KdEyyn3WBrR0iqeg3eGfO2uqjRVMKL~q~jxlM-Ekh3XEj1oTXwGdvJMwca8fIcRr4zQJcVaDNOFilXA3lMolpVhOarW86dgxcOa-Tg__',
+                        child: Image.asset(
+                    'assets/images/news1.jpg', // Замените ссылку на реальную
                           width: double.infinity,
                           height: 240,
                           fit: BoxFit.cover,
